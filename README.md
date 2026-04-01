@@ -1,17 +1,58 @@
-# it_quick_tools
+# IT Quick Tools
 
-A new Flutter project.
+IT Quick Tools is a Flutter-based Android app that provides essential networking and diagnostic utilities in one place.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **IP Calculator**
+  - CIDR calculations
+  - subnet details
+  - host range information
 
-A few resources to get you started if this is your first Flutter project:
+- **Port Checker**
+  - TCP port connectivity testing
+  - custom saved ports
+  - timeout support
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Ping Tool**
+  - latency testing
+  - simple connectivity checks
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **WiFi QR Generator**
+  - generate WiFi QR codes
+  - save local WiFi profiles
+  - duplicate detection
+
+- **Speed Test**
+  - custom implementation using `HttpClient`
+  - ping and download testing
+  - no external speed test plugin
+
+## Tech Stack
+
+- Flutter
+- Dart
+- SharedPreferences
+- Material 3
+- Custom networking with sockets and `HttpClient`
+
+## Project Status
+
+- Release build configured
+- Signed Android App Bundle created
+- Google Play Console setup completed
+- Internal testing working
+- Closed testing in progress
+
+## Screenshots
+
+_Add screenshots here later._
+
+## Privacy Policy
+
+See [privacy-policy.md](privacy-policy.md)
+
+## Author
+
+**Silvijo Kroslin**  
+NexForgeLabs
