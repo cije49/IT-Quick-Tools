@@ -54,5 +54,4 @@ See [privacy-policy.md](privacy-policy.md)
 
 ## Author
 
-**Silvijo Kroslin**  
 NexForgeLabs
